@@ -3,6 +3,8 @@
 // An anagram is a word, phrase, or name formed by rearranging the letters of another]
 
 //my code
+//time comp BigO of 3n = O(n) time
+
 function validAnagram(str1, str2) {
   // add whatever parameters you deem necessary - good luck!
   let hm1 = {};
