@@ -28,7 +28,7 @@ function validAnagram(str1, str2) {
   }
   return true;
 }
-//colt steel code
+//Colt Steele code
 function validAnagram2(first, second) {
   if (first.length !== second.length) {
     return false;
