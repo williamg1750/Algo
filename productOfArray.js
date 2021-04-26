@@ -10,3 +10,11 @@ const productOfArray = (arr) => {
   if (!arr.length) return 1;
   return arr[0] * productOfArray(arr.slice(1));
 };
+
+// PRODUCT OF ARRAY SOLUTION
+function productOfArray(arr) {
+  if (arr.length === 0) {
+    return 1;
+  }
+  return arr[0] * productOfArray(arr.slice(1));
+}
