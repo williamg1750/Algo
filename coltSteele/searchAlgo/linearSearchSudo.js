@@ -2,7 +2,7 @@
 
 //sudo code
 
-//function that takes a value to search for
+//function that takes a array and value to search for
 //forloop looping thru the index
 //compair the value to the arr[i] with the ===
 //if not === value i++
