@@ -53,6 +53,17 @@
         <textarea id='request' name='request?' row='10' col='40' placeholder='request'></textarea>
       </p>
       <button type="submit">submit</button>
+
+      <h2>validation</h2>
+      <form action='/dummy'>
+        <label for='first'>enter first name</label>
+        <input type='text' id='firstname' name='firstname' required>
+        <p>
+        <label for='username'>enter username</label>
+        <input type='text' id='username' name='username' minlength='5' maxlength='15'>
+        </p>
+        <button type="submit">submit</button>
+      </form>
     </form>
   </body>
 </html>
