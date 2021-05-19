@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/tacos">
+      <label for="name">name</label>
+      <input type="text" placeholder="Name" id="name" name='name'/>
+      <label for="password">password</label>
+      <input type="password" placeholder="password" id="password" name='password'/>
+      <label for="date">name</date>
+      <input type="date" id="date"/>
+      <button type="submit">submit</button>
+    </form>
+    <form action="https://www.google.com/search">
+      <input type="text" placeholder="Search" name='q'/>
+      <button type="submit">submit</button>
+    </form>
+    <h2>
+      more input
+    </h2>
+    <form>
+      <input type='checkbox' id='agree' name='agree_tos'>
+      <label for='agree'>i agree to everything</label>
+      <p>
+        <label for='small'>S</label>
+        <input type='radio' name='size' id="small" value='small'>
+        <label for='mid'>M</label>
+        <input type='radio' name='size' id="mid" value='mid'>
+        <label for='large'>L</label>
+        <input type='radio' name='size' id="large" value='large'>
+      </p>
+      <p>
+        <label for='meal'>select entree</label>
+        <select name='meal' id='meal'>
+          <option value='apple'>apple</option>
+          <option value='pineapple'>pineapple</option>
+          <option value='watermelon'>watermelon</option>
+        </select>
+
+      </p>
+      <p>
+        <label for='cheese'>amount of cheese</label>
+        <input type='range' id='cheese' name='cheese' min='1' max='10'>
+      </p>
+
+      <p>
+        <label for='request'></label>
+        <textarea id='request' name='request?' row='10' col='40' placeholder='request'></textarea>
+      </p>
+      <button type="submit">submit</button>
+    </form>
+  </body>
+</html>
