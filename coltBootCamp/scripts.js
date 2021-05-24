@@ -68,11 +68,3 @@
 //   return accum + curval;
 // });
 // console.log(sum);
-
-let obj = {
-  name: 'william',
-  age: 23,
-  height: '5ft-7in',
-};
-
-let { name } = obj;
